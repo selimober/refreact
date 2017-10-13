@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@cljs-oss/module-deps": "^1.1.1",
+    "create-react-class": "^15.6.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-notification": "^6.8.2",
+    "semantic-ui-react": "^0.74.2"
+  }
+}
