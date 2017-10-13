@@ -74,6 +74,12 @@
                     :output-to       "resources/public/js/compiled/app.js"
                     :optimizations   :advanced
                     :closure-defines {goog.DEBUG false}
+                    :npm-deps             {:react "15.6.1"
+                                           :react-dom "15.6.1"
+                                           :create-react-class "15.6.2"
+                                           :react-notification "6.8.2"}
+                    :install-deps         true
+                    :infer-externs   true
                     :pretty-print    false}}
 
     {:id           "test"
